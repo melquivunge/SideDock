@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>SideDock</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>SideDock uses Bluetooth so your iPhone can tell when it is next to this Mac.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>SideDock sends and receives files with your iPhone over the local network.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>SideDock asks Finder to empty the Trash, System Events to switch light/dark mode, and Spotify or Music for the iPhone Deck’s now-playing widget.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_sidedrop._tcp</string>
+		<string>_sidedrop._udp</string>
+	</array>
+</dict>
+</plist>
